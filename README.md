@@ -1,3 +1,6 @@
+> **Mirror, not affiliated with Microsoft.** This is an archive of Microsoft's `onnxruntime-swift-package-manager` 1.24.2 (upstream commit `b7fb7f7`, dated 2026-02-25), kept for [sackheads/iris](https://github.com/sackheads/iris/issues/1322) after the upstream repository began returning 404 in November 2026, alongside `microsoft/onnxruntime`, which Microsoft made private while it investigates malicious content. Microsoft has not named ONNX Runtime as affected, nor as safe.
+> The history and tags are unmodified. One commit, `def1e49`, changes only the two `binaryTarget` URLs in `Package.swift` to this repository's [1.24.2 release](https://github.com/sackheads/onnxruntime-swift-package-manager/releases/tag/1.24.2) assets, which are byte-identical to the archives upstream named (SHA-256 `f7100a99…0b54` and `346522d1…e6b5`, matching that commit's `Package.swift`). If Microsoft names this release or its download host as compromised, this mirror will be withdrawn.
+
 # Swift Package Manager for ONNX Runtime
 
 A light-weight repository for providing [Swift Package Manager (SPM)](https://www.swift.org/package-manager/) support for [ONNXRuntime](https://github.com/microsoft/onnxruntime). The ONNX Runtime native package is included as a binary dependency of the SPM package.
